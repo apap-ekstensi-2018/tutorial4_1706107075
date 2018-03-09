@@ -110,7 +110,7 @@
               <children xsi:type="basic:PartSashContainer" xmi:id="_32bgMCFYEeiYEtRndvdsSQ" containerData="7500" selectedElement="_32bgMiFYEeiYEtRndvdsSQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_32bgMSFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.editorss" containerData="6306" ref="_32bhmSFYEeiYEtRndvdsSQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_32bgMiFYEeiYEtRndvdsSQ" elementId="bottom" containerData="3694" selectedElement="_32bgMyFYEeiYEtRndvdsSQ">
-                  <tags>active</tags>
+                  <tags>noFocus</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_32bgMyFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_32biaCFYEeiYEtRndvdsSQ"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_32bgNCFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.views.ProgressView" ref="_32biiiFYEeiYEtRndvdsSQ"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_32bgNSFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.views.ProblemView" ref="_32bijSFYEeiYEtRndvdsSQ"/>
@@ -165,11 +165,14 @@
       <children xsi:type="basic:PartStack" xmi:id="_32bhmiFYEeiYEtRndvdsSQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_32bhmyFYEeiYEtRndvdsSQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_32bhmyFYEeiYEtRndvdsSQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="StudentController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StudentController.java&quot; partName=&quot;StudentController.java&quot; title=&quot;StudentController.java&quot; tooltip=&quot;APAPTutorial04/src/main/java/com/example/controller/StudentController.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/APAPTutorial04/src/main/java/com/example/controller/StudentController.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4085&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StudentController.java&quot; partName=&quot;StudentController.java&quot; title=&quot;StudentController.java&quot; tooltip=&quot;APAPTutorial04/src/main/java/com/example/controller/StudentController.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/APAPTutorial04/src/main/java/com/example/controller/StudentController.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4085&quot; selectionTopPixel=&quot;236&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_32bhnCFYEeiYEtRndvdsSQ" elementId="#CompilationUnitEditorContext">
             <tags>menuContribution:popup</tags>
             <tags>popup:#CompilationUnitEditorContext</tags>
@@ -210,7 +213,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_32bhqyFYEeiYEtRndvdsSQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="form-update.html" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;form-update.html&quot; partName=&quot;form-update.html&quot; title=&quot;form-update.html&quot; tooltip=&quot;APAPTutorial04/src/main/resources/templates/form-update.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/APAPTutorial04/src/main/resources/templates/form-update.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;672&quot; selectionTopPixel=&quot;134&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;form-update.html&quot; partName=&quot;form-update.html&quot; title=&quot;form-update.html&quot; tooltip=&quot;APAPTutorial04/src/main/resources/templates/form-update.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/APAPTutorial04/src/main/resources/templates/form-update.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;672&quot; selectionTopPixel=&quot;135&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
           <tags>removeOnHide</tags>
@@ -242,7 +245,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_x_9XYCHZEeiKe4IoNXpNDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="StudentModel.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StudentModel.java&quot; partName=&quot;StudentModel.java&quot; title=&quot;StudentModel.java&quot; tooltip=&quot;APAPTutorial04/src/main/java/com/example/model/StudentModel.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/APAPTutorial04/src/main/java/com/example/model/StudentModel.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;750&quot; selectionTopPixel=&quot;302&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StudentModel.java&quot; partName=&quot;StudentModel.java&quot; title=&quot;StudentModel.java&quot; tooltip=&quot;APAPTutorial04/src/main/java/com/example/model/StudentModel.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/APAPTutorial04/src/main/java/com/example/model/StudentModel.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -397,8 +400,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_32biaSFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -514,7 +515,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_32bioiFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_cnlvECOvEeiALMA2Z4zCkA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_32d-QiFYEeiYEtRndvdsSQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_GoaVcCPEEeiuQPeG9MTEzQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_32d-QiFYEeiYEtRndvdsSQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_32cHMiFYEeiYEtRndvdsSQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -541,7 +542,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_32cHiiFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_cnqAgCOvEeiALMA2Z4zCkA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_32d97SFYEeiYEtRndvdsSQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_GofN8CPEEeiuQPeG9MTEzQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_32d97SFYEeiYEtRndvdsSQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_32cHlCFYEeiYEtRndvdsSQ" elementId="org.eclipse.m2e.editor.MavenPomEditor" visible="false">
         <tags>Draggable</tags>
@@ -1009,7 +1010,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_32cItiFYEeiYEtRndvdsSQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
     </bindings>
-    <bindings xmi:id="_cL4qgSOvEeiALMA2Z4zCkA" keySequence="COMMAND+CTRL+F" command="_32d_CyFYEeiYEtRndvdsSQ"/>
+    <bindings xmi:id="_GJyfwCPEEeiuQPeG9MTEzQ" keySequence="COMMAND+CTRL+F" command="_32d_CyFYEeiYEtRndvdsSQ"/>
   </bindingTables>
   <bindingTables xmi:id="_32cIuCFYEeiYEtRndvdsSQ" elementId="org.eclipse.debug.ui.debugging" bindingContext="_32cJ9CFYEeiYEtRndvdsSQ">
     <bindings xmi:id="_32cIuSFYEeiYEtRndvdsSQ" keySequence="COMMAND+F2" command="_32d-HyFYEeiYEtRndvdsSQ"/>
@@ -1337,7 +1338,7 @@
     <bindings xmi:id="_32cJiCFYEeiYEtRndvdsSQ" keySequence="CTRL+SHIFT+D" command="_32d8ziFYEeiYEtRndvdsSQ"/>
   </bindingTables>
   <bindingTables xmi:id="_32cJiSFYEeiYEtRndvdsSQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_32cJ_CFYEeiYEtRndvdsSQ">
-    <bindings xmi:id="_cL5RkCOvEeiALMA2Z4zCkA" keySequence="M1+W" command="_32d_DSFYEeiYEtRndvdsSQ"/>
+    <bindings xmi:id="_GJyfwSPEEeiuQPeG9MTEzQ" keySequence="M1+W" command="_32d_DSFYEeiYEtRndvdsSQ"/>
   </bindingTables>
   <bindingTables xmi:id="_32cJiyFYEeiYEtRndvdsSQ" bindingContext="_32cKBSFYEeiYEtRndvdsSQ"/>
   <bindingTables xmi:id="_32cJjCFYEeiYEtRndvdsSQ" bindingContext="_32cKBiFYEeiYEtRndvdsSQ"/>
