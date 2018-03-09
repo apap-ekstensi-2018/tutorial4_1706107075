@@ -21,7 +21,7 @@ public class StudentServiceDatabase implements StudentService
     @Override
     public StudentModel selectStudent (String npm)
     {
-//        log.info ("select student with npm {}", npm);
+    		log.info ("select student with npm {}", npm);
         return studentMapper.selectStudent (npm);
     }
 
@@ -29,7 +29,7 @@ public class StudentServiceDatabase implements StudentService
     @Override
     public List<StudentModel> selectAllStudents ()
     {
-//        log.info ("select all students");
+        log.info ("select all students");
         return studentMapper.selectAllStudents ();
     }
 
